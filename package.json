@@ -1,7 +1,7 @@
 {
   "name": "lux_admin_branch",
   "version": "0.1.0",
-  "homepage": "https://GabOsaz.github.io/lux-admin-client",
+  "homepage": "https://gabosaz.github.io/lux-admin-client",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -19,6 +19,7 @@
     "formik": "^2.1.5",
     "gh-pages": "^3.1.0",
     "moment": "^2.27.0",
+    "netlify-cli": "^2.40.0",
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
     "react": "^16.13.1",
