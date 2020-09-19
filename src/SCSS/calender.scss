@@ -1,0 +1,211 @@
+.calender-main-container,
+.calender-container,
+.calender,
+.calender-header,
+td,
+tr {
+  padding: 0;
+  margin: 0;
+}
+
+.calender-main-container {
+  background-color: #f8f8f8;
+  height: 39rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calender-wrapper {
+  width: 28rem;
+  margin: 2rem 0rem;
+}
+
+.availability {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.availability-icon-1 {
+  background-color: green;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
+
+.availability-icon-2 {
+  background-color: red;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
+
+.availability-icon-1-cal {
+  background-color: green;
+  border-radius: 50%;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-left: 1.6rem;
+}
+
+.availability-icon-2-cal {
+  background-color: red;
+  border-radius: 50%;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-left: 1.6rem;
+}
+
+.available-dates {
+  display: flex;
+  align-items: center;
+  width: 28rem;
+  justify-content: space-between;
+}
+
+.close-icon {
+  display: flex;
+  align-items: flex-start;
+  height: 2.5rem;
+  padding-right: 0.5rem;
+}
+
+.available-dates-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 9.5rem;
+}
+
+.calender-align-availability {
+  display: flex;
+  justify-content: flex-start;
+  width: 8rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.calender-container-outer {
+  background-color: white;
+}
+
+.calender-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28rem;
+  height: 29rem;
+  padding: 1rem;
+}
+
+.calender {
+  background-color: white;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.calender-month-year {
+  display: flex;
+  justify-content: center;
+}
+
+.calender-header {
+  font-size: 1.6rem;
+  width: 28rem;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+
+.calender-header td {
+  border-spacing: 0;
+  padding-left: 0.5rem;
+}
+
+.day,
+.empty-slot,
+.week-day {
+  text-align: center;
+  height: 4rem;
+}
+
+.week-day {
+  font-size: 1.2rem;
+  width: 6rem;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+
+.day {
+  font-size: 1.2em;
+}
+
+.day {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.current-day {
+  background-color: #4285f4;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: 2%;
+  color: white;
+}
+
+.selected-day {
+  background-color: orange;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: 2%;
+  color: white;
+}
+
+.month-popup {
+  position: absolute;
+  padding: 0.5rem;
+  background: white;
+  border: 0.1rem solid orange;
+}
+
+.month-popup div {
+  padding: 0.3em;
+}
+
+.nav-month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  width: auto;
+}
+
+.editor-year {
+  max-width: 3.6em;
+  height: 1.5rem;
+}
+
+.label-month,
+.label-year {
+  font-size: 0.6em;
+  padding: 0rem 0.5rem;
+  font-size: 1.6rem;
+}
+
+.label-month {
+  cursor: pointer;
+}
+
+
