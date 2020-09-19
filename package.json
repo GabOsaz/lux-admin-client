@@ -1,6 +1,7 @@
 {
   "name": "lux_admin_branch",
   "version": "0.1.0",
+  "homepage": "https://GabOsaz.github.io/lux-admin-client",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -32,6 +33,7 @@
     "prebuild": "npm run build:styles",
     "prestart": "npm run build:styles",
     "build": "react-scripts build",
+    "deploy": "master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
